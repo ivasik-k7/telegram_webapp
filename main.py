@@ -7,6 +7,8 @@ from app.utils import settings, setup_logger
 
 logger = setup_logger(__name__)
 
+PORT = 8000
+
 
 def main() -> None:
     application = Application.builder().token(settings.TELEGRAM_BOT_TOKEN).build()
