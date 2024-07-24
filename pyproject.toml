@@ -6,7 +6,7 @@ authors = ["Ivan Kovtun <jeanlacroix@ukr.net>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "3.11.9"
 requests = "^2.32.3"
 python-telegram-bot = "^21.4"
 python-dotenv = "^1.0.1"
